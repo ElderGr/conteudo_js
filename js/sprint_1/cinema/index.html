@@ -5,21 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cinema</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    <div>
-        <div class="">
-
+    <div class="App">
+        <div class="form-infos">
+            <div>
+                <label for="n_poltronas">Número de poltronas</label>
+                <input type="text" name='n_poltronas' id='n_poltronas'>
+            </div>
+            <div>
+                <button>
+                    Criar poltrona
+                </button>
+            </div>
         </div>
-        <div>
+        <div class="fileiras-poltronas">
             <div class="poltrona">
                 <div class="braco__poltrona"></div>
                 <div class="ascento__poltrona"></div>
                 <div class="braco__poltrona"></div>
             </div>
-            <!-- <div></div> -->
         </div>
     </div>
+    <script src="./index.js"></script>
 </body>
 </html>
